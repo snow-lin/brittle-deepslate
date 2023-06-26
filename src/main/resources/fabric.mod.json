@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "relatively-brittle-deepslate",
+  "version": "${version}",
+  "name": "brittle-deepslate",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/snow-lin/brittle-deepslate"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.task.brittledeepslate.Brittle_deepslate"
+    ]
+  },
+  "mixins": [
+    "brittle-deepslate.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
